@@ -50,3 +50,4 @@ for i in range(len(df1)):
 with pd.ExcelWriter(r'C:\Users\Acer Nitro 5\Desktop\check ma.xlsx',
                     engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
     df1.to_excel(writer, sheet_name='Checking ', index=False)
+# thêm mới
